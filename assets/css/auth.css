@@ -1,0 +1,10 @@
+/* Auth pages */
+.auth-wrapper {
+    min-height: calc(100vh - 120px);
+}
+.auth-card {
+    border-radius: 1rem;
+}
+.letter-spacing-3 {
+    letter-spacing: .5rem;
+}

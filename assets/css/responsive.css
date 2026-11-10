@@ -1,0 +1,29 @@
+/* Skinova - responsive refinements (desktop-first overrides for tablet / mobile). */
+@media (max-width: 1199.98px) {
+    .nav-search { max-width: none; width: 100%; }
+}
+
+@media (max-width: 991.98px) {
+    .hero { text-align: center; }
+    .hero .hero-image { margin-top: 1.5rem; }
+    .navbar-collapse { padding-top: .5rem; }
+    .account-sidebar .list-group { flex-direction: row; flex-wrap: wrap; }
+    .account-sidebar .list-group-item { flex: 1 1 50%; }
+}
+
+@media (max-width: 767.98px) {
+    h1, .h1 { font-size: 1.75rem; }
+    h2, .h2 { font-size: 1.4rem; }
+    .section-title { font-size: 1.25rem; }
+    .table-responsive-stack thead { display: none; }
+    .table-responsive-stack tr { display: block; margin-bottom: 1rem; border: 1px solid #eee; border-radius: 8px; padding: .5rem; background: #fff; }
+    .table-responsive-stack td { display: flex; justify-content: space-between; border: 0 !important; padding: .25rem .5rem; }
+    .table-responsive-stack td::before { content: attr(data-label); font-weight: 600; margin-right: 1rem; }
+    .floating-chat { right: 12px; bottom: 12px; padding: .65rem .85rem; }
+}
+
+@media (max-width: 575.98px) {
+    .container { padding-left: 1rem; padding-right: 1rem; }
+    .product-card .card-body { padding: .75rem; }
+    .account-sidebar .list-group-item { flex: 1 1 100%; }
+}

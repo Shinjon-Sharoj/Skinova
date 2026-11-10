@@ -1,0 +1,5 @@
+/* Consultation & messaging */
+.message-bubble { word-break: break-word; line-height: 1.5; }
+#chatMessages { background: #f8f9fa; scroll-behavior: smooth; }
+.chat-msg { animation: fadeIn .2s ease; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }

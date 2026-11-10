@@ -1,0 +1,20 @@
+/* Skincare tools & AI pages */
+.chat-messages {
+    background: #f8f9fa;
+    scroll-behavior: smooth;
+}
+.message-bubble {
+    word-break: break-word;
+    line-height: 1.5;
+}
+.conv-item:hover { background: #f0f0f0; }
+
+/* Comparison table */
+.comparison-table th, .comparison-table td { vertical-align: middle; }
+.comparison-table thead th { background: #f8f9fa; }
+
+/* Routine steps */
+.timeline-dot { margin-top: 5px; }
+
+/* Ingredient grid hover */
+.hover-bg:hover { background: #f8f9fa; }
