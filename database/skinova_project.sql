@@ -77,7 +77,7 @@ CREATE TABLE `ai_knowledge_base` (
 
 -- --------------------------------------------------------
 
---
+
 -- Table structure for table `ai_messages`
 --
 
